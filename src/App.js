@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchCodeBlocks = async () => {
       try {
-        const response = await fetch('https://online-coding-app-client-pw9l.onrender.com/api/codeblocks');
+        const response = await fetch('https://online-coding-app-server-ktas.onrender.com/api/codeblocks');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -19,7 +19,7 @@ function App() {
       } catch (error) {
         console.error('Error fetching code blocks:', error);
       }
-    };
+    };    
 
     fetchCodeBlocks();
   }, []);
