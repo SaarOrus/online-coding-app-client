@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     const fetchCodeBlocks = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/codeblocks');
+        const response = await fetch('https://online-coding-app-client-pw9l.onrender.com/api/codeblocks');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

@@ -5,7 +5,7 @@ import hljs from 'highlight.js';
 import 'highlight.js/styles/default.css';
 import './CodeEditor.css';
 
-const socket = io('http://localhost:3000');
+const socket = io('https://online-coding-app-client-pw9l.onrender.com');
 
 function CodeEditor() {
   const { id } = useParams();
