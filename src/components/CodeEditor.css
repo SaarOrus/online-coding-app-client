@@ -1,0 +1,33 @@
+.editor-container {
+  position: relative;
+}
+
+textarea {
+  text-align: left;
+  direction: ltr;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.smiley-face {
+  font-size: 10em;
+  color: green;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  pointer-events: none;
+}
+
+pre {
+  text-align: left;
+  direction: ltr;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
