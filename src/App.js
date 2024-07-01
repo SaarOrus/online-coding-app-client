@@ -19,7 +19,7 @@ function App() {
       } catch (error) {
         console.error('Error fetching code blocks:', error);
       }
-    };    
+    };
 
     fetchCodeBlocks();
   }, []);
